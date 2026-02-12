@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# in first lines we print out warning message if argument isnt given then later we ping ip adress exactly five times
+if [ -z "$1" ]; then
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+    exit 1
+fi
+
+ping -c 5 "$1"
+
