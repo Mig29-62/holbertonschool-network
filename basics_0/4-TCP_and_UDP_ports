@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# -l listening sockets -n numerical form -t tcp -udp  -p process PID
-sudo netstat -lntup
+# -l listening sockets  -p process PID
+netstat -lp
