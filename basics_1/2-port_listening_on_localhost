@@ -1,1 +1,3 @@
+#!/usr/bin/env bash
+#we use netcat to listen to port 98 -l means listening -p means port
 nc -l -p 98
