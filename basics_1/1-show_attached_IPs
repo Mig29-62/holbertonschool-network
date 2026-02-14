@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#we use ifconfig to display active IPs in machine
+ifconfig
